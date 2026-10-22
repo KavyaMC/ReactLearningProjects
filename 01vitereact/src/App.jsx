@@ -1,11 +1,7 @@
-import Greet from './greet.jsx'
-
-function App({name}) {
+import NameSorter from './nameSorter.jsx'
+function App() {
   return (
-    <>
-    <h1>Hello, React with me! | {name}</h1>
-    <Greet name={name} />
-    </>
+    <NameSorter name1="Amit" name2="Kavya"/>
   )
 }
 

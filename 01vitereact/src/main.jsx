@@ -5,5 +5,5 @@ import App from './App.jsx'
 const div = document.getElementById('root');
 const root = createRoot(div)
 root.render(
-    <App  name="Kavya"/>
+    <App/>
 )
