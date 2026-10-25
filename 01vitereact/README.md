@@ -1,31 +1,76 @@
-# Hello React — Vite
+# React Learning Project — Vite
 
 ## Project Statement
 
-A simple React application that displays a personalised greeting using a functional component and a `name` prop.
+A React application built with Vite to practise functional components, props, form handling, and data manipulation.
 
 ## Purpose
 
-The purpose of this project is to practise setting up a React application with Vite and understand how functional components receive and display data through props.
+The purpose of this project is to explore React development using Vite and apply React concepts through small, practical features.
 
-## Output
+## Features
 
-The application displays the greeting:
+### 1. Greeting
 
-`Hello, React with me! | {name}`
+A greeting component that receives a name through props and displays a personalised message.
 
-Here, `{name}` represents the value passed to the `App` component through its `name` prop.
+Example output:
+
+`Hello, React with me! | Kavya`
+
+### 2. Name Sorter
+
+A name-sorting feature implemented in `NameSorter`, which allows users to enter names through a form and view them in alphabetical order.
+
+The feature provides practice with:
+
+- Collecting user input through a form.
+- Handling form submissions.
+- Processing and sorting names alphabetically.
+- Displaying the resulting list in the application.
+- Organising functionality into React components.
 
 ## Technologies Used
 
 - React
 - JavaScript
 - Vite
+- HTML
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone or download the repository.
+2. Open a terminal in the `01vitereact` directory.
+3. Install the project dependencies:
+
+   ```cmd
+   npm install
+   ```
+
+### Run the Application
+
+Start the development server:
+
+```cmd
+npm run dev
+```
+
+Open the local URL displayed in the terminal to view the application.
+
+## What I Learned
+
+- Setting up a React project with Vite.
+- Creating functional components and passing props.
+- Collecting and handling form input.
+- Organising an application into separate components.
 
 ## License
 
 No licence has been specified for this project.
-
-##Getting started with vite
-to run the project run the command `npm run dev` and open\
-https://localhost:5173/
